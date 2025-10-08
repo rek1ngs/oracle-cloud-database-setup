@@ -12,3 +12,8 @@ Docker — 28.5.1
 Oracle Database — 21c Express Edition  
 SQL Devoloper — 24.3.1 (Mac ARM)  
 
+```bash
+# 1. Connect to Oracle Cloud VM
+ssh -i <your_key>.key opc@<your_public_ip>
+
+```
