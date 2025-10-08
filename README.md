@@ -51,3 +51,9 @@ docker logs -f oracle21xe
 
 Expected result:  
 `DATABASE IS READY TO USE!`
+
+## OCI Security Rules
+| Protocol | Port | Source CIDR | Description |
+|----------|------|-------------|-------------|
+| TCP | 22 | <your_ip>/32 | SSH access|
+| TCP | 1521| <your_ip>/32 | SQL Devoloper connection |
