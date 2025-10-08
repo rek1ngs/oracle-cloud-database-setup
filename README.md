@@ -42,7 +42,7 @@ exit
 # 3. Run Oracle XE 21c container
 docker run -d --name oracle21xe \
   -p 1521:1521 \
-  -e ORACLE_PASSWORD=<MySecurePass123> \
+  -e ORACLE_PASSWORD=MySecurePass123 \
   --shm-size=2g \
   gvenzl/oracle-xe:21-slim
 
@@ -68,7 +68,7 @@ Expected result:
 | Port | 1521 |
 | Service Name | XEPDB1 |
 | Username | SYSTEM |
-| Password | <MySecurePass123> |
+| Password | MySecurePass123 |
 
 ## Notes
 1. For Oracle 21XE require minimum 3GB RAM in VM
