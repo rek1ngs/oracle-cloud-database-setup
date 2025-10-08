@@ -2,7 +2,7 @@
 
 ## About the project
 This project demonstrates how to deploy Oracle Database 21c Express Edition (XE) inside a Docker container running on an Oracle Cloud Infrastructure (OCI) VM instance.
-It shows full configuration -- from SSH setup to database connection in SQL Developer.
+It shows full configuration — from SSH setup to database connection in SQL Developer.
 
 ## Environment
 | Component | Version |
@@ -12,7 +12,7 @@ It shows full configuration -- from SSH setup to database connection in SQL Deve
 | OS | Oracle Linux 9 |
 |Docker | 28.5.1 |
 |Oracle Database | 21c Express Edition |  
-| SQL Devoloper | 24.3.1 (Mac ARM) |
+| SQL Developer | 24.3.1 (Mac ARM) |
 
 ## Deployment steps
 ```bash
@@ -71,7 +71,7 @@ Expected result:
 | Password | MySecurePass123 |
 
 ## Notes
-1. For Oracle 21XE require minimum 3GB RAM in VM
+1. For Oracle 21XE requires a minimum 3GB RAM in the VM
 2. Don't forget create public IP Address
 3. If You work on laptop and you often change your location, your IP address changing too.
    * You will need to change Source CIDR on current IP in Subnet —> Security —> Security Rules
