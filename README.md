@@ -5,10 +5,10 @@ This project demonstrates how to deploy Oracle Database 21c Express Edition (XE)
 It shows full configuration -- from SSH setup to database connection in SQL Developer.
 
 ## Environment
-Component
-Oracle Cloud VM -- VM.Standard.E3.Flex
-OS -- Oracle Linux 9
-Docker -- 28.5.1
-Oracle Database -- 21c Express Edition
-SQL Devoloper -- 24.3.1 (Mac ARM)
+Component — Version  
+Oracle Cloud VM — VM.Standard.E3.Flex  
+OS — Oracle Linux 9  
+Docker — 28.5.1  
+Oracle Database — 21c Express Edition  
+SQL Devoloper — 24.3.1 (Mac ARM)  
 
