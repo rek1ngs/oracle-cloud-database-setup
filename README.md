@@ -60,3 +60,8 @@ Expected result:
 | TCP | 1521| <your_ip>/32 | SQL Devoloper connection |
 
 *You can check your IP on [What is My IP Address](https://whatismyipaddress.com)*
+
+
+## Notes
+1. For Oracle 21XE require minimum 3GB RAM in VM
+2. Don't forget create public IP Address 
