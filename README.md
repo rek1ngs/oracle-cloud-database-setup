@@ -16,4 +16,13 @@ SQL Devoloper — 24.3.1 (Mac ARM)
 # 1. Connect to Oracle Cloud VM
 ssh -i <your_key>.key opc@<your_public_ip>
 
+# 2. Add swap memory for sistem
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo bash -c 'echo "/swapfile none swap sw 0 0" >> /etc/fstab'
+
+# Checking
+free -h
 ```
