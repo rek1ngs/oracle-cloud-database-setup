@@ -64,4 +64,6 @@ Expected result:
 
 ## Notes
 1. For Oracle 21XE require minimum 3GB RAM in VM
-2. Don't forget create public IP Address 
+2. Don't forget create public IP Address
+3. If You work on laptop and you often change your location, your IP address changing too.
+4. * You will need to change Source CIDR on current IP in Subnet —> Security —> Security Rules
