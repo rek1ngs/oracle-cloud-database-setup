@@ -59,4 +59,4 @@ Expected result:
 | TCP | 22 | <your_ip>/32 | SSH access|
 | TCP | 1521| <your_ip>/32 | SQL Devoloper connection |
 
-* You can check your IP on [What is My IP Address](https://whatismyipaddress.com) *
+*You can check your IP on [What is My IP Address](https://whatismyipaddress.com)*
