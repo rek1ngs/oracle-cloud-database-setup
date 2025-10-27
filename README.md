@@ -7,7 +7,7 @@ It shows full configuration — from SSH setup to database connection in SQL Dev
 ## Environment
 | Component | Version |
 |-----------|---------|
-|Oracle Cloud VM | VM.Standard.E3.Flex |
+|Oracle Cloud VM | VM.Standart.E3.Flex |
 |RAM | 3GB |
 | OS | Oracle Linux 9 |
 |Docker | 28.5.1 |
